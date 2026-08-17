@@ -10,11 +10,12 @@
         <module name="Tilas-pojo" />
         <module name="Tilas-util" />
       </profile>
-      <profile name="Annotation profile for Tilas" enabled="true">
+      <profile name="Annotation profile for Tilas-Parent" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../Java/Maven/apache-maven-3.9.16/mvn_repo/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
           <entry name="$PROJECT_DIR$/../../Java/Maven/apache-maven-3.9.16/mvn_repo/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
         <module name="Tilas" />

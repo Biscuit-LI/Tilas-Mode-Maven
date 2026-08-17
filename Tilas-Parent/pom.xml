@@ -26,6 +26,12 @@
         <aliyun-sdk-oss-version>3.18.4</aliyun-sdk-oss-version>
     </properties>
 
+    <modules>
+        <module>../Tilas</module>
+        <module>../Tilas-pojo</module>
+        <module>../Tilas-util</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
